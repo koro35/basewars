@@ -8,8 +8,6 @@ public class DamageEvent implements Listener {
 
 	@EventHandler
 	public void onDamageEvent(EntityDamageByEntityEvent event){
-		//Swagulisouwegthus
-
 		if(pvp.isPvpEnabled){
 			event.setCancelled(false);
 		} else if (pvp.isPvpEnabled == false){

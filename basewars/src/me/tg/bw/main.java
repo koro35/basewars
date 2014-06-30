@@ -16,7 +16,7 @@ public static Plugin plugin;
  	public void onEnable(){
 	 	plugin = this;
 	 	this.logger.info("[BaseWars] Plugin enabled.");
-	 	registerEvents(this, new DamageEvent());
+	 	registerEvents(this, new DamageEvent(), new MotdListener(), new timer(), new BasicKit());
 	 	getCommand("timer").setExecutor(new Commands());
 
 

@@ -2,8 +2,9 @@ package me.tg.bw;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.event.Listener;
 
-public class timer {
+public class timer implements Listener{
 	private static int left = 60 * 199;
 	public static int timeleft = 120;
 
