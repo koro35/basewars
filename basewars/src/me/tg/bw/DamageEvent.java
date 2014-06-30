@@ -14,7 +14,5 @@ public class DamageEvent implements Listener {
 		} else if (pvp.isPvpEnabled == false){
 			event.setCancelled(true);
 		}
-		
 	}
-	
 }
