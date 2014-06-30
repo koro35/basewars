@@ -12,7 +12,7 @@ public class Commands implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		
 		//Player p = (Player) sender;
-		//IRock likes poop
+		//reckless likes poopssss
 		//even more
 		if(sender instanceof Player){
 			if(cmd.getName().equalsIgnoreCase("timer")){
