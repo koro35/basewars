@@ -15,6 +15,8 @@ public class Commands implements CommandExecutor {
 		
 		//IDEK WHAT TO PUT HERE
 		
+		//TOLD YOU THIS WOULDNT WORK LETSU SE DROPBOX
+		
 		if(sender instanceof Player){
 			if(cmd.getName().equalsIgnoreCase("timer")){
 				timer.startTimer();
