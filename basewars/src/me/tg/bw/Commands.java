@@ -13,6 +13,8 @@ public class Commands implements CommandExecutor {
 		
 		//Player p = (Player) sender;
 		
+		//IDEK WHAT TO PUT HERE
+		
 		if(sender instanceof Player){
 			if(cmd.getName().equalsIgnoreCase("timer")){
 				timer.startTimer();
@@ -23,3 +25,4 @@ public class Commands implements CommandExecutor {
 	}
 
 }
+0
