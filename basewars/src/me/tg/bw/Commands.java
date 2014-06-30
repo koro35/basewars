@@ -13,6 +13,7 @@ public class Commands implements CommandExecutor {
 		
 		//Player p = (Player) sender;
 		//IRock likes poop
+		//even more
 		if(sender instanceof Player){
 			if(cmd.getName().equalsIgnoreCase("timer")){
 				timer.startTimer();
