@@ -11,11 +11,7 @@ public class Commands implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		
-		//Player p = (Player) sender;
-		
-		//IDEK WHAT TO PUT HERE
-		
-		//TOLD YOU THIS WOULDNT WORK LETSU SE DROPBOX
+		// U think u fannah?
 		
 		if(sender instanceof Player){
 			if(cmd.getName().equalsIgnoreCase("timer")){
@@ -27,4 +23,3 @@ public class Commands implements CommandExecutor {
 	}
 
 }
-0
