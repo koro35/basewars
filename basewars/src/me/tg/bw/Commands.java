@@ -10,9 +10,7 @@ public class Commands implements CommandExecutor {
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-		
-		// U think u fannah?
-		
+
 		if(sender instanceof Player){
 			if(cmd.getName().equalsIgnoreCase("timer")){
 				timer.startTimer();

@@ -8,7 +8,8 @@ public class DamageEvent implements Listener {
 
 	@EventHandler
 	public void onDamageEvent(EntityDamageByEntityEvent event){
-		//Edit 2, checking for true is bullshit. It looks like shit
+		//Swag
+
 		if(pvp.isPvpEnabled){
 			event.setCancelled(false);
 		} else if (pvp.isPvpEnabled == false){
